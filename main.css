@@ -1,0 +1,85 @@
+.headline-one{
+    font-family: 'Overpass', sans-serif;
+    font-weight:lighter;
+    font-size: 100px;
+    letter-spacing: -1.5px;
+}
+
+.headline-two{
+    font-family: 'Overpass', sans-serif;
+    font-weight:lighter;
+    font-size: 62px;
+    letter-spacing: -0.5px;
+}
+
+.headline-three{
+    font-family: 'Overpass', sans-serif;
+    font-weight:normal;
+    font-size: 50px;
+    letter-spacing: 0px;
+}
+
+.headline-four{
+    font-family: 'Overpass', sans-serif;
+    font-weight:lighter;
+    font-size: 35px;
+    letter-spacing: 0.25;
+}
+
+.headline-five{
+    font-family: 'Overpass', sans-serif;
+    font-weight:lighter;
+    font-size: 25px;
+    letter-spacing: 0.15px;
+}
+
+.subtitle-one{
+    font-family: 'Overpass', sans-serif;
+    font-weight:normal;
+    font-size: 17px;
+    letter-spacing: 0.15px;
+}
+
+.subtitle-two{
+    font-family: 'Overpass', sans-serif;
+    font-weight:normal;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+}
+
+.body-two{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:normal;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+}
+
+.button-type{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:Medium;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+}
+
+.caption{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:normal;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.overline{
+    font-family: 'Roboto Mono', monospace;
+    font-weight:normal;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}

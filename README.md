@@ -4,6 +4,8 @@
 
 ---
 
+## Files:
+
 ### HTML Documents:
 - **index.html**\
 This is the landing page of my portfolio. It will contain links to html pages and my socials (LinkedIn, Instagram and GitHub) 
@@ -17,7 +19,6 @@ This page contains my Resume marked up in html and styled using css, as well as 
 - **blog.html**\
 This is a html file with a seperate css stylesheet with custom css used spefically for blogs
 
----
 
 ### CSS Documents:
 
@@ -28,3 +29,17 @@ This css file will contain universal styles, used throught out the website.
 This css file will contain styles unique to the blog page and and linked posts. I will create a design system to easily style up a blog post.
 ---
 
+## Design:
+
+I will be using elements of Material design as a framework for the website. This includes:
+
+- **Typography**<br>
+The project utilises Overpass for headers and headlines and Roboto Mono for Body and Captions.
+
+- **Grid**<br>
+
+- **Baseline**<br>
+
+- **Colours**<br>
+
+- **Images**<br>
