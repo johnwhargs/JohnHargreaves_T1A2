@@ -1,0 +1,25 @@
+https://m2.material.io/components/buttons#specs
+
+contained-button 
+height 36px
+left right 16px
+min-width 64dp
+
+contained button with icon
+height 36px
+icon 18px square
+icon left 12
+icon right 8
+right 16px
+min-width 64dp
+
+outlined button
+height 36px
+left right 16
+stroke 1px 
+min width 64dp
+
+text button
+height 36px
+left right 8px 
+min width 64dp
