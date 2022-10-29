@@ -7,51 +7,85 @@
     <title>John Hargreaves' Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.2.0/build/base-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/landing-page.css">
 </head>
 <body>
+
+    <div class="nav-container">
+        <nav>
+            <div class="logo-text">
+                 <h4>John Hargreaves</h4>
+                 <span class="logo-text-underline"></span>
+            </div>
+             <div>
+                 <ul class="nav-links">
+                     <li class="nav-link">
+                         <a href="about-me.html">
+                             <span class="link-text">About me</span>
+                             <span class="link-arrow">&#10132;</span>
+                         </a>
+                     </li>
+                     <li class="nav-link">
+                         <a href="resume.html">
+                             <span class="link-text">Résumé</span>
+                             <span class="link-arrow">&#10132;</span>
+                         </a>
+                     </li>
+                     <li class="nav-link">
+                         <a href="blogs.html">
+                             <span class="link-text">Blog</span>
+                             <span class="link-arrow">&#10132;</span>
+                         </a>
+                     </li>
+                     <li class="nav-link">
+                         <a href="contact.html">
+                             <span class="link-text">Contact</span>
+                             <span class="link-arrow">&#10132;</span>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+    </div>
+    
+     </nav>
+
     <main>
-        <h1 class="headline-one">This is the style for Headline One</h1>
-        <div class="padding-24px"></div>
-        <h2 class="headline-two">This is the style for Headline Two</h2>
-        <div class="padding-24px"></div>
-        <h3 class="headline-three">This is the style for Headline Three</h3>
-        <div class="padding-24px"></div>
-        <h4 class="headline-four">This is the style for Headline Four</h4>
-        <div class="padding-24px"></div>
-        <h5 class="headline-five">This is the style for Headline Five</h5>
-        <div class="padding-24px"></div>
-        <h6 class="subtitle-one">This is the style for Subtitle One</h6>
-        <div class="padding-24px"></div>
-        <h6 class="subtitle-two">This is the style for Subtitle Two</h7>
 
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <section class="hello-message-container">
+            <div class="left">
+                <div class="picture"></div>
+            </div>
+            <div class="right">
+                <h1>
+                    Hello <span>😃</span><span class="wave">🤚</span> welcome to my portfolio.
+                </h1>
+                <h4>
+                    My name’s John and I am a digital creative based in Adelaide, South Australia
+                </h4>
+                <h6 class="subtitle-one">socials</h6>
+                <div class="socials-container">
+                    <button class="button-type outlined-button "><i class="icon-button-stye fa-solid fa-paper-plane"></i>Instagram</button>
+                    <button class="button-type outlined-button "><i class="icon-button-stye fa-solid fa-paper-plane"></i>Github</button>
+                    <button class="button-type outlined-button "><i class="icon-button-stye fa-solid fa-paper-plane"></i>linkedin</button>
+                </div>
+            </div>
+        </section>
 
-        <div class="divider">
+        <section class="section-cards">
+            <div class="left">
+                <div class="section-card-text">
+                    <h3 class="line-height-none">About me</h3>
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eros nibh, feugiat quis tellus eu, finibus tempus nisl.</h5>
+                <button class="contained-button button-type">Learn more </button>
+                </div>
+            </div>
+            <div class="right"></div>
+        </section>
 
-        </div>
-
-        <div class="divider-background">
-            
-        </div>
-
-        <div class="divider-subtitle-component">
-            <div class="divider-subtile"></div>
-            <h1 class="subtitle-two">Subtitle Two Divider</h1>
-        </div>
-
-        <p class="body-two">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-        <button class="contained-button button-type">contained button</button>
-
-        <button class="button-type outlined-button ">outlined button</button>
-
-        <button class="button-type text-button ">Text button</button>
-
-        <button class="button-type outlined-button "><i class="icon-button-stye fa-solid fa-paper-plane"></i>outlined button</button>
     </main>
 </body>
 </html>

@@ -1,0 +1,333 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+:root{
+    --main-color: rgba(225, 244, 255, 1);
+    --main-color-opacity-0:rgba(225, 244, 255, 0);
+    --secondary-color: rgba(248, 78, 62, 1);
+    --secondary-color-opacity: rgba(248, 78, 62, 0.80);
+
+    --text-color: rgba(34, 34, 34, 1);
+    --text-color-light: rgba(34, 34, 34, 0.4);
+
+    --main-font: 'Overpass', sans-serif;
+    --secondary-font: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+
+h1 {
+    font-size: 0em;
+    margin: 0em 0;
+}
+
+.padding-24px{
+    padding: 24px;
+}
+
+html{
+    background-color: var(--main-color);
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    html{
+        background-color: var(--main-color);
+        font-size: 12px;
+        transition: font-size 0.5s;
+    }
+}
+
+main{
+    max-width: 1060px;
+    margin: 120px auto;
+    height: 1200px;
+    padding: 24px;
+
+    
+}
+
+h1{
+    font-family: var(--main-font);
+    font-weight:300;
+    font-size: 6.25rem;
+    letter-spacing: -0.09375rem;
+    line-height: 7.5rem;
+}
+
+h2{
+    font-family: var(--main-font);
+    font-weight:300;
+    font-size: 62px;
+    letter-spacing: -0.5px;
+    line-height: 74.4px;
+}
+
+h3{
+    font-family: var(--main-font);
+    font-weight:normal;
+    font-size: 50px;
+    letter-spacing: 0px;
+    line-height: 60px;
+}
+
+h4{
+    font-family: var(--main-font);
+    font-weight:300;
+    font-size: 35px;
+    letter-spacing: 0.25px;
+    line-height: 42px;
+}
+
+h5{
+    font-family: var(--main-font);
+    font-weight:300;
+    font-size: 25px;
+    letter-spacing: 0.15px;
+    line-height: 30px;
+}
+
+.subtitle-one{
+    font-family: var(--main-font);
+    font-weight:normal;
+    font-size: 17px;
+    letter-spacing: 0.15px;
+    line-height: 20.4px;
+    text-transform: uppercase;
+}
+
+.subtitle-two{
+    font-family: var(--main-font);
+    font-weight:normal;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+}
+
+body{
+    font-family: var(--secondary-font);
+    font-weight:normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 19.2px;
+
+}
+
+.body-two{
+    font-family: var(--secondary-font);
+    font-weight:normal;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16.8px;
+}
+
+button{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button-type{
+    font-family: var(--secondary-font);
+    font-weight:500;
+    font-size: 14px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.caption{
+    font-family: var(--secondary-font);
+    font-weight:500;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+.overline{
+    font-family: var(--secondary-font);
+    font-weight:normal;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+
+/* button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+} */
+
+.contained-button{
+    height: 36px;
+    background-color: var(--secondary-color);
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.contained-button:hover{
+    background-color: var(--secondary-color-opacity);
+}
+
+.outlined-button{
+    height: 36px;
+    border: 1px var(--secondary-color) solid;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    background: none;
+    color: var(--secondary-color);
+    background-color: rgba(255, 127, 80, 0);
+}
+
+.outlined-button:hover{
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.text-button{
+    height: 36px;
+    background: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+}
+
+.icon-button-stye{
+  width: 18px; 
+  height: 18px;
+  padding-right: 8px; 
+}
+
+.icon-button{
+    height: 36px;
+    border: 1px var(--secondary-color) solid;
+    padding-left: 12px;
+    padding-right: 8px;
+    border-radius: 3px;
+    background: none;
+    color: var(--secondary-color);
+}
+
+.divider{
+    border: 1px var(--secondary-color) solid;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.divider-subtile{
+    border: 1px var(--secondary-color) solid;
+    margin-top: 24px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.nav-container{
+    width: 100%;
+background: linear-gradient(180deg, var(--main-color) 45%, var(--main-color-opacity-0) 100%);
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    padding: 24px 0px;
+}
+
+nav{
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0px, -15px);
+}
+
+.logo-text{
+    position: relative;
+    cursor: pointer;
+}
+
+.logo-text h4{
+    line-height: unset !important;
+    height: 0px;
+}
+
+.logo-text-underline{
+    position: absolute;
+    background-color: var(--text-color);
+    width: 100%;
+    height: 2px;
+    top: 68%;
+    transition: 0.1s ease;
+    opacity: 0 ;
+}
+
+.logo-text:hover .logo-text-underline{
+    transition: 0.1s ease;
+    top: 74%;
+    opacity: 1;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-link{
+    color: var(--text-color);
+    position: relative;
+    margin-left: 24px;
+    margin-right: 24px;
+    transition: 0.5s;
+}
+
+.link-arrow{
+    position: absolute;
+    right: 0px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.link-text{
+    opacity: 0.2;
+    transition: 0.4s; 
+}
+
+
+.nav-link:hover .link-arrow{
+    color: var(--text-color);
+    right: -12px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.nav-link:hover .link-text{
+    opacity: 1; 
+    transition: 0.4s; 
+}
+
+.line-height-none{
+    line-height: unset;
+}
