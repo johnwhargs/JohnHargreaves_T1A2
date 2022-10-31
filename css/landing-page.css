@@ -36,31 +36,6 @@
     width: 70%;
   }
 
-  .section-cards{
-    max-width: 100%;
-    padding: 32px;
-    background-color: white;
-    min-height: 420px;
-    display: flex;
-    margin-top: 36px;
-    margin-bottom: 36px;
-    box-shadow: 0px 0px 15px rgb(176 191 200 / 10%);
-    transition: 0.5s;
-  }
-
-  .section-cards .left, .section-cards .left {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .section-cards:hover{
-    box-shadow: 0px 0px 15px rgb(176 191 200 / 90%);
-    transition: 0.5s;
-  }
-
   .section-cards.blog{
     flex-direction: column;
   }
