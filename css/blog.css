@@ -51,13 +51,14 @@
     max-width: 1000px;
   }
 
-  .blog-header-figure figcaption{
+  figcaption{
     position: absolute;
     left: 6px;
     bottom: 6px;
     padding: 6px;
     background-color: white;
     box-shadow: var(--drop-shadow-option-two);
+    font-size: 0.8rem;
   }
 
   .image-text-lock-up{
@@ -159,15 +160,8 @@
     height: 240px;
   }
 
-  .three-images div figure figcaption{
-    position: absolute;
-  }
-
-
-  
-
     .three-images img{
-    
+    width: 100%;
     top: -70%;
     bottom: -50%;
   }

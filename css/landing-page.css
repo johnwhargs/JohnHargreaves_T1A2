@@ -24,10 +24,12 @@
 
     border-radius: 50%;
 
-    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 24px;
   }
 
   .hello-message-container .right  {
     width: 70%;
   }
-
