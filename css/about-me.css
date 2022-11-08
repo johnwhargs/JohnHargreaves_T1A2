@@ -1,0 +1,50 @@
+
+.my-interests ul li{
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+  }
+  
+  
+  .my-interests ul li span{
+      min-width: 32px;
+      min-height: 32px;
+      max-width: 32px;
+      max-height: 32px;
+      display: flex;
+      margin-right:12px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 999px;
+      
+      transition: 0.5s ease;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .porco-rosso img{
+      width: 59px;
+      height: fit-content;
+      transition: 0.5s ease;
+      
+  }
+  
+  .beginners img{
+      width: 59px;
+      height: fit-content;
+      transition: 0.5s ease;
+      
+  }
+  
+  .my-interests ul li span:hover{
+      min-width: 50px;
+      min-height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+      transition: 0.5s ease;
+  }
+  
+
+.about-divider{
+    display: none;
+}

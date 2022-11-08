@@ -75,3 +75,16 @@ Font Roboto Mono
 Weight Normal
 Size 10px
 Letter spacing 1.5px
+
+
+
+
+
+
+1. Good, just about done with the major components - a matter of populating it with content.
+
+2. Today I styled up the components on the about-me page and went over the blog template. 
+
+3. Just need to not get distracted with things I could add and finish what I have done so far
+
+4. At the moment, time travel to see how I go at this course haha

@@ -13,8 +13,8 @@
   }
 
   .picture{
-    min-height: 320px;
-    min-width: 320px;
+    min-height: 120px;
+    min-width: 120px;
     max-height: 320px;
     max-width: 320px;
     background-image: url(/img/49328495.jpeg);

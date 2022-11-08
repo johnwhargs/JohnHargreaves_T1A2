@@ -19,3 +19,7 @@
 .education-skills-knowledge-containter div{
     width: 30%;
 }
+
+.education-skills-knowledge-containter .divider{
+    display: none;
+}
