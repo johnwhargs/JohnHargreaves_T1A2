@@ -28,6 +28,11 @@ ul {
     100% {transform: rotate(25deg);}
   }
 
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 h1, h2, h3, h4, h5, h6{
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -51,8 +56,6 @@ span.wave{
     
     display: inline-block;
   }
-
-
   
 .padding-24px{
     padding: 24px;
@@ -68,17 +71,21 @@ html{
     html{
         background-color: var(--main-color);
         font-size: 12px;
-        transition: font-size 0.5s;
     }
 }
 
 main{
     max-width: 1060px;
-    margin-top: 32px;
+    margin-top: 82px;
     padding: 24px;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+p a{
+    text-decoration: underline;
+
 }
 
 h1{
@@ -271,11 +278,11 @@ button{
 
 .nav-container{
     width: 100%;
-background: linear-gradient(180deg, var(--main-color) 45%, var(--main-color-opacity-0) 100%);
+background: linear-gradient(180deg, var(--main-color) 65%, var(--main-color-opacity-0) 100%);
     position: fixed;
     top: 0;
     z-index: 10000;
-    padding: 24px 0px;
+    padding: 0px 0px;
 }
 
 nav{
@@ -361,7 +368,7 @@ nav{
     background-color: white;
     min-height: 420px;
     display: flex;
-    margin-top: 36px;
+    margin-top: 0px;
     margin-bottom: 36px;
     box-shadow: var(--drop-shadow-option-one);
     transition: 0.5s;

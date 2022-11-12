@@ -2,7 +2,8 @@
 
   .hello-message-container{
     display: flex;
-    margin-top: 60px;
+    margin-top: 28px;
+    margin-bottom: 32px;
   }
 
 
@@ -13,14 +14,15 @@
   }
 
   .picture{
-    min-height: 120px;
-    min-width: 120px;
+    min-height: 320px;
+    min-width: 320px;
     max-height: 320px;
     max-width: 320px;
     background-image: url(/img/49328495.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 
     border-radius: 50%;
 
@@ -32,4 +34,22 @@
 
   .hello-message-container .right  {
     width: 70%;
+  }
+
+  .landing-page-section .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page-section .right .image{
+    min-height: 320px;
+    min-width: 320px;
+    max-height: 320px;
+    max-width: 320px;
+
+    background-color: red;
+    margin: 24px;
+
+    border-radius: 9999px;
   }

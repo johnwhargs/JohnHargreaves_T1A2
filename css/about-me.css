@@ -22,19 +22,20 @@
       justify-content: center;
   }
   
-  .porco-rosso img{
+  div.my-interest ul li span img{
       width: 59px;
       height: fit-content;
       transition: 0.5s ease;
       
   }
+
+  .img-box {
+    width: 59px;
+    height: fit-content;
+    transition: 0.5s ease;
+    
+}
   
-  .beginners img{
-      width: 59px;
-      height: fit-content;
-      transition: 0.5s ease;
-      
-  }
   
   .my-interests ul li span:hover{
       min-width: 50px;
@@ -47,4 +48,8 @@
 
 .about-divider{
     display: none;
+}
+
+.about-me-container .left{
+    margin-right: 24px;
 }

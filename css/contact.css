@@ -15,8 +15,10 @@
 input[type=text], input[type=email] {
     padding:5px; 
     border:2px solid #ccc; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    border-top: 0px ;
+    border-left: 0px ;
+    border-right: 0px ;
+   
     margin-top: 8px;
     margin-bottom: 12px;
 }

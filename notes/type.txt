@@ -1,90 +1,9 @@
-Headline 1
-Font Overpass
-Weight Light
-Size 100px
-Letter spacing -1.5px
+Why I am learning web development
 
-Headline 2
-Font Overpass
-Weight Light
-Size 62px
-Letter spacing -0.5px
+My journey so far with film photography
 
-Headline 3
-Font Overpass
-Weight Normal
-Size 50px
-Letter spacing 0px
+How I became a graphic designer
 
-Headline 4
-Font Overpass
-Weight Normal
-Size 35px
-Letter spacing 0.25px
+How I approach character design
 
-Headline 5
-Font Overpass
-Weight Normal
-Size 25px
-Letter spacing 0px
-
-Headline 6
-Font Overpass
-Weight Medium
-Size 21px
-Letter spacing 0.15px
-
-Subtitle 1
-Font Overpass
-Weight Normal
-Size 17px
-Letter spacing 0.15px
-
-Subtitle 2
-Font Overpass
-Weight Medium
-Size 15px
-Letter spacing 0.1px
-
-Body 1
-Font Roboto Mono
-Weight Normal
-Size 16px
-Letter spacing 0.5px
-
-Body 2
-Font Roboto Mono
-Weight Normal
-Size 14px
-Letter spacing 0.25px
-
-BUTTON
-Font Roboto Mono
-Weight Medium
-Size 14px
-Letter spacing 1.25px
-
-Caption
-Font Roboto Mono
-Weight Normal
-Size 12px
-Letter spacing 0.4px
-
-OVERLINE
-Font Roboto Mono
-Weight Normal
-Size 10px
-Letter spacing 1.5px
-
-
-
-
-
-
-1. Good, just about done with the major components - a matter of populating it with content.
-
-2. Today I styled up the components on the about-me page and went over the blog template. 
-
-3. Just need to not get distracted with things I could add and finish what I have done so far
-
-4. At the moment, time travel to see how I go at this course haha
+Running sucks, but I love it

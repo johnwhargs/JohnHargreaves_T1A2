@@ -1,6 +1,42 @@
 /* main.css */
 
-@media (max-width: 425px) {
+@media (max-width: 871px){
+    .picture{
+        min-height: 280px;
+        min-width: 280px;
+        max-height: 280px;
+        max-width: 280px;
+      }
+
+     .hello-message-container .right h1 {
+        font-family: var(--main-font);
+        font-weight: 300;
+        font-size: 5.25rem;
+        letter-spacing: -0.09375rem;
+        line-height: 6.5rem;
+    }
+}
+
+
+@media (max-width: 770px) {
+    main {
+        margin-top: 90px;
+    }
+}
+
+
+@media (max-width: 400px){
+    .picture{
+        min-height: 200px;
+        min-width: 200px;
+        max-height: 200px;
+        max-width: 200px;
+      }
+}
+
+
+
+@media (max-width: 770px) {
     nav{
         flex-direction: column;
     }
@@ -42,6 +78,26 @@
     .socials-container a button{
         margin-bottom: 12px;
     }
+
+    main {
+        margin-top: 100px;
+    }
+
+    .logo-text:hover .logo-text-underline {
+        transition: 0.2s ease;
+        bottom: -5px;
+        opacity: 1;
+    }
+
+    .logo-text-underline {
+        position: absolute;
+        background-color: var(--text-color);
+        width: 100%;
+        height: 2px;
+        bottom: 2px;
+        transition: all 0.2s ease 0s;
+        opacity: 0;
+    }
     
 }
 
@@ -49,7 +105,7 @@
 
 /* about-me.css */
 
-@media (max-width: 425px) {
+@media (max-width: 900px) {
 
     .about-me-container{
         flex-direction: column;
@@ -59,10 +115,18 @@
         display: block;
     }
 
+    .about-me-container .left, .about-me-container .right{
+        width: 100%;
+    }
+
+    .about-me-container .left{
+        margin-right: 0px;
+    }
+
 }
 
 /* contact.css */
-@media (max-width: 425px){
+@media (max-width: 910px){
     .contact-section{
         flex-direction: column;
     }
@@ -71,7 +135,26 @@
 
 /* blog.css */
 
-@media (max-width: 425px) {
+@media (max-width: 800px) {
+
+    .three-images {
+        flex-direction: column;
+    }
+
+    .three-images div {
+        width: 100%;
+        padding: 6px;
+        position: relative;
+    }
+
+    .blog-header-figure, .three-images div figure, .image-text-lock-up-figure, .blog-photo {
+        height: 320px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
     .blogs-container {
         flex-direction: column;
         margin-top: 12px;
@@ -117,6 +200,34 @@
 
 /* landing-page.css */
 
+@media (max-width: 871px){
+    .hello-message-container{
+        flex-direction: column;
+    }
+
+    .hello-message-container h1 {
+        font-family: var(--main-font);
+        font-size: 3.25rem;
+        line-height: 4.5rem;
+    }
+
+    .hello-message-container .left, .hello-message-container .right {
+        height: 100%;
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    } 
+
+    
+}
+
+@media (max-width: 700px){
+    .landing-page-section{
+        flex-direction: column-reverse;
+        
+    }
+}
+
 @media (max-width: 425px){
     .hello-message-container{
         flex-direction: column;
@@ -135,15 +246,21 @@
         margin-left: 0px;
     }
 
-    .hello-message-container .left .picture {
-        display: none;
-    }
+    .landing-page-section .right .image{
+        min-height: 200px;
+        min-width: 200px;
+        max-height: 200px;
+        max-width: 200px;
+    
+        background-color: red;
+        margin: 24px;
+      }
 }
 
 
 /* resume.css */
 
-@media (max-width: 425px) {
+@media (max-width: 760px) {
     .education-skills-knowledge-containter{
         flex-direction: column;
     }

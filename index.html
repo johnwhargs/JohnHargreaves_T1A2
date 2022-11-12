@@ -19,7 +19,7 @@
 
     <div class="nav-container">
         <nav>
-            <a href="index.html"> 
+            <a href="/index.html"> 
                 <div class="logo-text">
                 <h4>John Hargreaves</h4>
                 <span class="logo-text-underline"></span>
@@ -27,25 +27,25 @@
              <div>
                  <ul class="nav-links">
                      <li class="nav-link">
-                         <a href="about-me.html">
+                         <a href="/about-me.html">
                              <span class="link-text">About me</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
                      </li>
                      <li class="nav-link">
-                         <a href="resume.html">
+                         <a href="/resume.html">
                              <span class="link-text">Résumé</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
                      </li>
                      <li class="nav-link">
-                         <a href="blogs.html">
+                         <a href="/blogs.html">
                              <span class="link-text">Blog</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
                      </li>
                      <li class="nav-link">
-                         <a href="contact.html">
+                         <a href="/contact.html">
                              <span class="link-text">Contact</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
@@ -59,7 +59,7 @@
 
     <main>
 
-        <section class="hello-message-container">
+        <section class="hello-message-container section-margin">
             <div class="left">
                 <div class="picture"></div>
             </div>
@@ -72,14 +72,22 @@
                 </h4>
                 <h6 class="subtitle-one">socials</h6>
                 <div class="socials-container">
-                    <button class="button-type outlined-button "><i class="icon-button-stye fa-brands fa-instagram"></i>Instagram</button>
+                    <a href="">
+                        <button class="button-type outlined-button "><i class="icon-button-stye fa-brands fa-instagram"></i>Instagram</button>
+                    </a>
+                    <a href="">
                     <button class="button-type outlined-button "><i class="icon-button-stye fa-brands fa-github"></i>Github</button>
-                    <button class="button-type outlined-button "><i class="icon-button-stye fa-brands fa-linkedin"></i>linkedin</button>
+                    </a>
+
+                    <a href="">
+                        <button class="button-type outlined-button "><i class="icon-button-stye fa-brands fa-linkedin"></i>linkedin</button>
+                    </a>
+                    
                 </div>
             </div>
         </section>
 
-        <section class="section-cards">
+        <section class="section-cards landing-page-section">
             <div class="left">
                 <div class="section-card-text">
                     <h3 class="">About me</h3>
@@ -87,11 +95,13 @@
                 <button class="contained-button button-type">Learn more </button>
                 </div>
             </div>
-            <div class="right"></div>
+            <div class="right">
+                <div class="image"></div>
+            </div>
         </section>
 
        
-            <div class="section-cards">
+            <div class="section-cards landing-page-section">
                 <div class="left">
                     <div class="section-card-text">
                         <h3 class="l">Résumé</h3>
@@ -101,79 +111,99 @@
                     </a>
                     </div>
                 </div>
-                <div class="right"></div>
-            </div>
-        
-
-        <section class="section-cards blog">
-            <h3 class="">Blog Posts</h3>
-
-            <div class="blogs-container">
-                <div class="blog-container">
-                    <div class="left">
-                       <div class="blog-photo"></div>
-                    </div>
-                    <div class="right">
-                        <h3 class="subtitle-one">Web Development</h3>
-                        <h4>Why I am learning web development</h4>
-                         <button class="contained-button button-type ">Read</button>
-                    </div>
+                <div class="right">
+                    <div class="image"></div>
                 </div>
             </div>
+      
+                            <!-- this is a component of blog posts i used throughout the website. -->
 
-            <div class="blogs-container">
-                <div class="blog-container">
+            <section class="section-cards blog section-margin">
+                <h3 class="">Blog Posts</h3>
+
+<!-- all blog posts components contain a container div, left div (contains an object-image) and right div (contains subtitle-one, h4, and a button inside an a tag). Images sourced from unsplash and credited accordingly  -->
+
+<!-- Blog entry one -->
+
+                <div class="blogs-container">
                     <div class="left">
-                       <div class="blog-photo"></div>
+                        <div class="blog-photo">
+                            <img src="/img/blog-imgs/web-dev/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="Macbook Pro on a desk by Christopher Gower">
+                        </div>
+                     </div>
+                     <div class="right">
+                         <h3 class="subtitle-one">Web Development</h3>
+                         <h4>Why I am learning web development</h4>
+                         <h3 class="subtitle-one">1 November 2022</h3>
+                         <a href="/blog-posts/why-i-am-learning-web-development.html"><button class="contained-button button-type ">Read</button></a>
+                     </div>
+                </div>
+
+ <!-- Blog entry two -->
+    
+                <div class="blogs-container">
+                    <div class="left">
+                       <div class="blog-photo">
+                        <img src="/img/blog-imgs/photography/dillon-wanner-mOn6tFMW-78-unsplash.jpg" alt="Scanning film negatives by Dillion Wanner">
+                       </div>
                     </div>
                     <div class="right">
                         <h3 class="subtitle-one">Photography</h3>
                         <h4>My journey so far with film photography</h4>
-                         <button class="contained-button button-type ">Read</button>
+                        <h3 class="subtitle-one">1 November 2022</h3>
+                        <a href="/blog-posts/my-journey-so-far-with-film-photography.html"><button class="contained-button button-type ">Read</button></a>
                     </div>
                 </div>
-            </div>
 
-            <div class="blogs-container">
-                <div class="blog-container">
+<!-- Blog entry three -->
+    
+                <div class="blogs-container">
                     <div class="left">
-                       <div class="blog-photo"></div>
+                       <div class="blog-photo">
+                        <img src="/img/blog-imgs/graphic-design/charlesdeluvio-LPTVnfARdfs-unsplash.jpg" alt="Japanese Type sheets by Charles Deluvio">
+                       </div>
                     </div>
                     <div class="right">
                         <h3 class="subtitle-one">Graphic Design</h3>
                         <h4>How I became a graphic designer</h4>
-                         <button class="contained-button button-type ">Read</button>
+                        <h3 class="subtitle-one">1 November 2022</h3>
+                         <a href="/blog-posts/how-i-became-a-graphic-designer.html"><button class="contained-button button-type ">Read</button></a>
                     </div>
                 </div>
-            </div>
 
-            <div class="blogs-container">
-                <div class="blog-container">
+ <!-- Blog entry four -->
+    
+                <div class="blogs-container">
                     <div class="left">
-                       <div class="blog-photo"></div>
+                       <div class="blog-photo">
+                        <img src="/img/blog-imgs/character-design/eepeng-cheong-SMv8BC9JF6k-unsplash.jpg" alt="Person sketching with pen and pad by Eepend Cheong">
+                       </div>
                     </div>
                     <div class="right">
-                        <h3 class="subtitle-one">Graphic Design</h3>
+                        <h3 class="subtitle-one">Character Design</h3>
                         <h4>How I approach character design</h4>
-                         <button class="contained-button button-type ">Read</button>
+                        <h3 class="subtitle-one">1 November 2022</h3>
+                        <a href="/blog-posts/how-i-approach-character-design.html"><button class="contained-button button-type ">Read</button></a>
                     </div>
                 </div>
-            </div>
 
-            <div class="blogs-container">
-                <div class="blog-container">
+                <!-- Blog entry five -->
+    
+                <div class="blogs-container">
                     <div class="left">
-                       <div class="blog-photo"></div>
+                       <div class="blog-photo">
+                        <img src="/img/blog-imgs/running/hendrik-morkel-PEuBo_tBHDw-unsplash.jpg" alt="Trail running in the woods by Hendrik Morkel">
+                       </div>
                     </div>
                     <div class="right">
                         <h3 class="subtitle-one">Running</h3>
                         <h4>Running sucks, but I love it</h4>
-                         <button class="contained-button button-type ">Read</button>
+                        <h3 class="subtitle-one">1 November 2022</h3>
+                        <a href="/blog-posts/running-sucks-but-i-love-it.html"><button class="contained-button button-type ">Read</button></a>
                     </div>
                 </div>
-            </div>
-
-        </section>
+    
+            </section>
 
     </main>
 
@@ -186,19 +216,19 @@
              <div>
                  <ul class="nav-links">
                      <li class="nav-link">
-                         <a href="about-me.html">
+                         <a href="https://www.instagram.com/johnwhargs" target="_blank">
                              <span class="link-text">Instagram</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
                      </li>
                      <li class="nav-link">
-                         <a href="resume.html">
+                         <a href="https://github.com/johnwhargs" target="_blank">
                              <span class="link-text">Github</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
                      </li>
-                     <li class="nav-link">
-                         <a href="blogs.html">
+                     <li class="nav-link" target="_blank">
+                         <a href="https://au.linkedin.com/in/john-hargreaves-53a70a212">
                              <span class="link-text">LinkedIn</span>
                              <span class="link-arrow">&#10132;</span>
                          </a>
