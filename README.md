@@ -12,7 +12,7 @@ Presentation video
 
 The purpose of my portfolio is to track my current journey at the start of my Full Stack development journey. At the moment I can do HTML and CSS confidently, but as I go along I hope to add further improvements that I will learn throughtout the Coder Academy course.
 
- Due to contracts with clients I couldn't make it a full design portfolio, but more of an introdution to me as a digital creative.
+ Due to contracts with clients I couldn't make it a full design portfolio, but more of an introdution to me as a digital creative - who has aspirations and is working on expanding his skillsets into full stack development.
 
 ---
 
@@ -49,10 +49,23 @@ font-family: 'Piazzolla', serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Space Grotesk', sans-serif;
 ```
-Below is a code snippet of some css font styles.
+Below is a some code snippet of css font styles.
 ```
+    :root{
+    --main-color: rgba(225, 244, 255, 1);
+    --main-color-opacity-0:rgba(225, 244, 255, 0);
+    --secondary-color: rgba(248, 78, 62, 1);
+    --secondary-color-opacity: rgba(248, 78, 62, 0.80);
+    --third-color: rgba(255, 238, 178, 1);
+
+    --text-color: rgba(34, 34, 34, 1);
+    --text-color-light: rgba(34, 34, 34, 0.7);
+
     --main-font: 'Overpass', sans-serif;
     --secondary-font: 'Roboto Mono', monospace;
+    --drop-shadow-option-one: 0px 0px 15px rgb(176 191 200 / 90%);
+    --drop-shadow-option-two: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
 
 h1{
     font-family: var(--main-font);
@@ -81,6 +94,16 @@ body, li{
 }
 
 ```
+Made a seperate html page to see the type scale before moving on to other pages.
+
+![type-scale.html page](/docs/type-scale.png "type-scale.html page")
+
+
+Now with the type scale created, in css and html, I was able to implement it throughout the creation of the website. This approach made it visually consistant and felt like a good starting point when designing.
+
+![Screencapture of the websites homepage](/docs/screencapture-astounding-figolla-7f5c90-netlify-app-index-html-2022-11-12-23_20_16.png "Screencapture of the websites homepage")
+
+---
 
 ## HTML Documents:
 - **index.html**\
@@ -104,7 +127,7 @@ This is a html file with a seperate css stylesheet with custom css used spefical
 This css file will contain universal styles, used through out the website.
 
 - **blog.css**\
-This css file will contain styles unique to the blog page and templates to for sample posts. I will create a design system to easily style up a blog post. This includes the component of a pulled qoute and a three column image lock-up.
+This css file will contain styles unique to the blog page and templates to for sample posts. I will create a design system to easily style up a blog post. This includes the component of a pulled quote and a three column image lock-up.
 
 - **landing.css**\
 This css file will contain universal styles, used throught out the website.
