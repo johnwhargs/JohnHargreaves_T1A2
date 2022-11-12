@@ -2,19 +2,17 @@
 
 ## **Assignment** <br>Project: Plan and Develop a Portfolio Website
 
-[Published portfolio website](https://astounding-figolla-7f5c90.netlify.app/about-me.html "Netlify deploy") \
+[Published portfolio website](https://astounding-figolla-7f5c90.netlify.app/ "Netlify deploy") \
 [GitHub Repo](https://github.com/johnwhargs/JohnHargreaves_T1A2 "GitHub Repo - JohnHargreaves_T1A2")\
 Presentation video
 
 ---
 
-## Description:
+## Description and Purpose:
 
+The purpose of my portfolio is to track my current journey at the start of my Full Stack development journey. At the moment I can do HTML and CSS confidently, but as I go along I hope to add further improvements that I will learn throughtout the Coder Academy course.
 
----
-
-## Purpose:
-
+ Due to contracts with clients I couldn't make it a full design portfolio, but more of an introdution to me as a digital creative.
 
 ---
 
@@ -39,7 +37,7 @@ After the doodles in procreate I than recreate text and button components in Fig
 Screenshot of the text scale and buttons created in Figma. This influenced the overall design of the website.
 ![Screenshot of the text scale and buttons created in Figma](/docs/Figma-Components.png "Screenshot of the text styles and buttons created in Figma")
 
-Below is a code snippet of the fonts families I used in the project.
+Below is a code snippet of the font families I used in the project.
 
 ```
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,10 +49,40 @@ font-family: 'Piazzolla', serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Space Grotesk', sans-serif;
 ```
+Below is a code snippet of some css font styles.
+```
+    --main-font: 'Overpass', sans-serif;
+    --secondary-font: 'Roboto Mono', monospace;
 
+h1{
+    font-family: var(--main-font);
+    font-weight:300;
+    font-size: 6.25rem;
+    letter-spacing: -0.09375rem;
+    line-height: 7.5rem;
+}
 
+h2{
+    font-family: var(--main-font);
+    font-weight:300;
+    font-size: 3.875rem;
+    letter-spacing: -0.03125rem;
+    line-height: 4.65rem;
+    display: block !important;
+}
 
-### HTML Documents:
+body, li{
+    font-family: var(--secondary-font);
+    font-weight:normal;
+    font-size: 1rem;
+    letter-spacing: 0.03125rem;
+    line-height: 1.2rem;
+
+}
+
+```
+
+## HTML Documents:
 - **index.html**\
 This is the landing page of my portfolio. It will contain links to html pages, as well as my socials (LinkedIn, Instagram and GitHub). 
 
@@ -70,7 +98,7 @@ This is a html file with a seperate css stylesheet with custom css used spefical
 - **contact.html**\
 This is a html file with a seperate css stylesheet with custom css used spefically for contacts.
 
-### CSS Documents:
+## CSS Documents:
 
 - **main.css**\
 This css file will contain universal styles, used through out the website.
@@ -92,7 +120,7 @@ Contains all my media quires that make the website responsive to various breakin
 
 ## Functionality / features:
 
-I will be using elements of Material design as a framework for the website. 
+Four components which contain 
 
 ---
 
