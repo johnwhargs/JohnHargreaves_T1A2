@@ -454,3 +454,20 @@ nav{
     max-width: 161.77px;
 }
 
+.picture{
+    min-height: 320px;
+    min-width: 320px;
+    max-height: 320px;
+    max-width: 320px;
+    background-image: url(/img/49328495.jpeg);
+    border-radius: 50%;
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+
+  .picture img {
+    float:left;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }

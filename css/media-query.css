@@ -130,7 +130,17 @@
     .contact-section{
         flex-direction: column;
     }
+
+    .contact-section .right form {
+        margin-left: unset;
+        margin-right:unset;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
 }
+
 
 
 /* blog.css */

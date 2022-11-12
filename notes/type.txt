@@ -7,3 +7,25 @@ How I became a graphic designer
 How I approach character design
 
 Running sucks, but I love it
+
+<i class="fa-regular fa-phone"></i>
+
+https://github.com/johnwhargs
+https://au.linkedin.com/in/john-hargreaves-53a70a212
+https://www.instagram.com/johnwhargs
+
+
+
+
+General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
+
+A link (URL) to your published portfolio website
+A link to your GitHub repo
+A link to your presentation video
+Description of your portfolio website, including,
+Purpose
+Functionality / features
+Sitemap
+Screenshots
+Target audience
+Tech stack (e.g. html, css, deployment platform, etc)
