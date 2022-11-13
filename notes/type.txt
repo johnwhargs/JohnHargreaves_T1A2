@@ -29,3 +29,29 @@ Sitemap
 Screenshots
 Target audience
 Tech stack (e.g. html, css, deployment platform, etc)
+
+
+
+
+
+        <!-- section card with extra classes -->
+
+        <section class="section-cards section-card-flex-direction section-margin">
+
+            <!-- header -->
+
+            <h3 class="subtitle-one">Character Design</h3>
+            <h2>How I approach character design</h2>
+            <h3 class="subtitle-one">November 1 2022</h3>
+
+            <!-- figure component -->
+
+            <figure class="blog-header-figure">
+                <img class="photo-test" src="/img/blog-imgs/character-design/eepeng-cheong-SMv8BC9JF6k-unsplash.jpg"
+                    alt="Person sketching with pen and pad by Eepend Cheong">
+                <figcaption>Eepend Cheong</figcaption>
+            </figure>
+
+            <div class="divider"> </div>
+
+            <!-- blog text -->

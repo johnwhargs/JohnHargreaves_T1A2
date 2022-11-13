@@ -23,6 +23,8 @@ ul {
     --drop-shadow-option-two: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* wav animation */
+
 @keyframes waving {
     0% {
         transform: rotate(-25deg);
@@ -97,7 +99,7 @@ main {
 
 }
 
-/* type scales */
+/* type scales and styles */
 
 p a {
     text-decoration: underline;
@@ -254,9 +256,7 @@ button {
     width: 8px;
 }
 
-.say-hello {
-    max-width: 161.77px;
-}
+
 
 .outlined-button:hover {
     background-color: var(--secondary-color);
@@ -289,6 +289,10 @@ button {
     background: none;
     color: var(--secondary-color);
 }
+
+/* .say-hello {
+    max-width: 161.77px;
+} */
 
 /* divider component */
 
@@ -505,3 +509,5 @@ ul {
     height: 100%;
     object-fit: cover;
 }
+
+/* footer */
