@@ -10,17 +10,19 @@ Presentation video
 
 ## Description and Purpose:
 
-The purpose of my portfolio is to track my current journey at the start of my Full Stack development journey. At the moment I can do HTML and CSS confidently, but as I go along I hope to add further improvements that I will learn throughtout the Coder Academy course.
+The purpose of my portfolio is to track my current journey at the start of my Full Stack development. At the moment I can do HTML and CSS confidently (as demonstrated in the submitted portolio website), but as I go along I hope to add further improvements that I will learn throughtout the Coder Academy course.
 
- Due to contracts with clients I couldn't make it a full design portfolio, but more of an introdution to me as a digital creative - who has aspirations and is working on expanding his skillsets into full stack development.
+Due to contracts with clients I couldn't make it a full design portfolio, but more of an introdution to me as a digital creative - who has aspirations and is working on expanding his skillsets into full stack development.
 
 ---
 
 ## Sitemap:
+
 ![Sitemap made in Milanote](/docs/sitemap.png "Sitemap made in Milanote")
-Above is the sitemap of the my portfolio site that I worked to. 
+Above is the sitemap of the my portfolio site that I worked to.
 
 ## Procreate Wireframes:
+
 After this sitemap I moved to doodling some rough wireframes in procreate.\
 **Wireframe: Landing Page Desktop and Mobile**
 ![Procreate Wireframe: Landing Page Desktop and Mobile](/docs/Procreate-Wireframe-1.PNG "Procreate Wireframe: Landing Page Desktop and Mobile")
@@ -29,10 +31,14 @@ After this sitemap I moved to doodling some rough wireframes in procreate.\
 ![Procreate Wireframe: Blog Templates Desktop and Mobile](/docs/Procreate-Wireframe-2.PNG "Procreate Wireframe: Blog Templates Desktop and Mobile")
 
 **Wireframe: About Me, Contact, Resume**
-![Procreate Wireframe: About Me, Contact, Resume](/docs/Procreate-Wireframe-3.PNG "Procreate Wireframe: About Me, Contact, Resume") 
+![Procreate Wireframe: About Me, Contact, Resume](/docs/Procreate-Wireframe-3.PNG "Procreate Wireframe: About Me, Contact, Resume")
 
 ## Figma Wireframe:
-After the doodles in procreate I than recreate text and button components in Figma to use as the base of text and button css styles. I used [Google Material Design's type scale](https://m2.material.io/design/typography/the-type-system.html#type-scale "Google Material Design's type scale") as reference to build the website around.
+
+After the doodles in procreate I than recreate text and button components in Figma to use as the base of the text and button css styles. I used [Google Material Design's type scale](https://m2.material.io/design/typography/the-type-system.html#type-scale "Google Material Design's type scale") as reference to build typography around the website.
+
+Also, used[ Google Material Design's Button style guide](https://m2.material.io/components/buttons "Google Material Design's Button style guide") as reference for the buttons used in the website.
+
 ![Desktop mock up in Figma](/docs/Desktop%20-%201-2.jpg "Desktop mock up in Figma")
 Screenshot of the text scale and buttons created in Figma. This influenced the overall design of the website.
 ![Screenshot of the text scale and buttons created in Figma](/docs/Figma-Components.png "Screenshot of the text styles and buttons created in Figma")
@@ -49,7 +55,9 @@ font-family: 'Piazzolla', serif;
 font-family: 'Roboto Mono', monospace;
 font-family: 'Space Grotesk', sans-serif;
 ```
+
 Below is a some code snippet of css font styles.
+
 ```
     :root{
     --main-color: rgba(225, 244, 255, 1);
@@ -94,10 +102,10 @@ body, li{
 }
 
 ```
-Made a seperate html page to see the type scale before moving on to other pages.
+
+Made a seperate html page to see the type scale and buttons work before moving on to other pages.
 
 ![type-scale.html page](/docs/type-scale.png "type-scale.html page")
-
 
 Now with the type scale created, in css and html, I was able to implement it throughout the creation of the website. This approach made it visually consistant and felt like a good starting point when designing.
 
@@ -106,48 +114,56 @@ Now with the type scale created, in css and html, I was able to implement it thr
 ---
 
 ## HTML Documents:
+
 - **index.html**\
-This is the landing page of my portfolio. It will contain links to html pages, as well as my socials (LinkedIn, Instagram and GitHub). 
+  This is the landing page of my portfolio. It will contain links to html pages, as well as my socials (LinkedIn, Instagram and GitHub).
 
 - **about-me.html**\
-This page will contain a breif spill about me and my interest.
+  This page will contain a breif spill about me and my interests - created a .
 
 - **resume.html**\
-This page contains my Resume marked up in html and styled using css, as well as an option to download a pdf.
+  This page contains my Resume marked up in html and styled using css, as well as an option to download a pdf.
 
 - **blog.html**\
-This is a html file with a seperate css stylesheet with custom css used spefically for blogs. A blog template was created to fulfil the five sample posts. Sample blog posts can be found [here](/blog-posts)
+  This is a html file with a seperate css stylesheet with custom css used spefically for blogs. A blog template was created to fulfil the five sample posts. Sample blog posts can be found [here](/blog-posts)
 
 - **contact.html**\
-This is a html file with a seperate css stylesheet with custom css used spefically for contacts.
+  This is a html file with a seperate css stylesheet with custom css used spefically for contacts.
 
 ## CSS Documents:
 
 - **main.css**\
-This css file will contain universal styles, used through out the website.
+  This css file will contain universal styles, used through out the website - such as the nav and font styles.
 
 - **blog.css**\
-This css file will contain styles unique to the blog page and templates to for sample posts. I will create a design system to easily style up a blog post. This includes the component of a pulled quote and a three column image lock-up.
+  This css file will contain styles unique to the blog page and templates to for sample posts. I will create a design system to easily style up a blog post. This includes the component of a pulled quote and a three column image lock-up.
 
-- **landing.css**\
-This css file will contain universal styles, used throught out the website.
+- **landing-page.css**\
+  Styles used on the landing-page.html
 
 - **contact.css**\
-CSS styles for the contact form.
+  CSS styles for the contact form.
 
 - **media-query.css**\
-Contains all my media quires that make the website responsive to various breaking points.
+  Contains all my media quires that make the website responsive to various breaking points.
+
+- **resume.css**\
+  CSS styles for my resume in HTML.
+
+- **about-me.css**\
+CSS styles for about-me.html, such as the list with thumbnail components.
+
+- **reset.html**\
+HTML reset using CSS styles by http://meyerweb.com/eric/tools/css/reset/ 
 
 ---
 
-
 ## Functionality / features:
 
-Four components which contain 
+From the very start I focused on getting the typography right to determain the overall style of the website.
+
+This can be seen in the components that I made
 
 ---
 
 ## Target audience:
-
-
-

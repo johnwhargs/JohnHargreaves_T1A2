@@ -1,14 +1,13 @@
-.current-position, .current-learing{
+/* div styles for current position and currently learning */
+
+.current-position,
+.current-learing {
     padding: 24px;
     background-color: var(--third-color);
     margin-top: 24px;
 }
 
-.current-learing{
-   
-}
-
-.education-skills-knowledge-containter{
+.education-skills-knowledge-containter {
     padding: 24px;
     border: solid 2px black;
     display: flex;
@@ -16,10 +15,10 @@
     margin-top: 24px;
 }
 
-.education-skills-knowledge-containter div{
+.education-skills-knowledge-containter div {
     width: 30%;
 }
 
-.education-skills-knowledge-containter .divider{
+.education-skills-knowledge-containter .divider {
     display: none;
 }

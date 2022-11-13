@@ -1,31 +1,32 @@
-.contact-form{
+.contact-form {
     width: min-content;
 }
 
 
-.contact-section .right form{
- margin-left: auto;
- margin-right: auto;
- width: fit-content;
- display: flex;
- flex-direction: column;
- flex: 1;
+.contact-section .right form {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-input[type=text], input[type=email] {
-    padding:5px; 
-    border:2px solid #ccc; 
-    border-top: 0px ;
-    border-left: 0px ;
-    border-right: 0px ;
-   
+input[type=text],
+input[type=email] {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
     margin-top: 8px;
     margin-bottom: 12px;
 }
 
 input[type=text]:focus {
-    border-color:var(--secondary-color-opacity);
-    
+    border-color: var(--secondary-color-opacity);
+
 }
 
 textarea {
@@ -51,4 +52,3 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: var(--secondary-color-opacity);
 }
-

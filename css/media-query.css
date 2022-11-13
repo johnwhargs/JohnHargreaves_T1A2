@@ -1,14 +1,16 @@
+/* media queries for responsive layouts */
+
 /* main.css */
 
-@media (max-width: 871px){
-    .picture{
+@media (max-width: 871px) {
+    .picture {
         min-height: 280px;
         min-width: 280px;
         max-height: 280px;
         max-width: 280px;
-      }
+    }
 
-     .hello-message-container .right h1 {
+    .hello-message-container .right h1 {
         font-family: var(--main-font);
         font-weight: 300;
         font-size: 5.25rem;
@@ -25,31 +27,31 @@
 }
 
 
-@media (max-width: 400px){
-    .picture{
+@media (max-width: 400px) {
+    .picture {
         min-height: 200px;
         min-width: 200px;
         max-height: 200px;
         max-width: 200px;
-      }
+    }
 }
 
 
 
 @media (max-width: 770px) {
-    nav{
+    nav {
         flex-direction: column;
     }
-    
-    .nav-links{
-        flex-wrap: wrap;
-    }  
 
-    .nav-link{
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
         margin-left: 0px;
     }
 
-    .nav-container{
+    .nav-container {
         padding: 0px 0px;
     }
 
@@ -61,11 +63,12 @@
         flex-direction: column;
     }
 
-    .section-cards .left, .section-cards .right {
+    .section-cards .left,
+    .section-cards .right {
         width: 100%;
-      }
+    }
 
-      .logo-text h4 {
+    .logo-text h4 {
         line-height: unset !important;
         height: 0px;
         padding-bottom: 12px;
@@ -75,7 +78,7 @@
         background: linear-gradient(180deg, var(--main-color) 70%, var(--main-color-opacity-0) 100%);
     }
 
-    .socials-container a button{
+    .socials-container a button {
         margin-bottom: 12px;
     }
 
@@ -98,7 +101,7 @@
         transition: all 0.2s ease 0s;
         opacity: 0;
     }
-    
+
 }
 
 
@@ -107,33 +110,34 @@
 
 @media (max-width: 900px) {
 
-    .about-me-container{
+    .about-me-container {
         flex-direction: column;
     }
-    
-    .about-divider{
+
+    .about-divider {
         display: block;
     }
 
-    .about-me-container .left, .about-me-container .right{
+    .about-me-container .left,
+    .about-me-container .right {
         width: 100%;
     }
 
-    .about-me-container .left{
+    .about-me-container .left {
         margin-right: 0px;
     }
 
 }
 
 /* contact.css */
-@media (max-width: 910px){
-    .contact-section{
+@media (max-width: 910px) {
+    .contact-section {
         flex-direction: column;
     }
 
     .contact-section .right form {
         margin-left: unset;
-        margin-right:unset;
+        margin-right: unset;
         width: fit-content;
         display: flex;
         flex-direction: column;
@@ -157,7 +161,10 @@
         position: relative;
     }
 
-    .blog-header-figure, .three-images div figure, .image-text-lock-up-figure, .blog-photo {
+    .blog-header-figure,
+    .three-images div figure,
+    .image-text-lock-up-figure,
+    .blog-photo {
         height: 320px;
     }
 
@@ -170,11 +177,14 @@
         margin-top: 12px;
     }
 
-    .blogs-container .right{
+    .blogs-container .right {
         margin-top: 18px !important;
     }
 
-    .blog-header-figure, .three-images div figure, .image-text-lock-up-figure, .blog-photo {
+    .blog-header-figure,
+    .three-images div figure,
+    .image-text-lock-up-figure,
+    .blog-photo {
         height: 240px;
     }
 
@@ -198,20 +208,23 @@
 
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
 
-    .blog-header-figure, .three-images div figure, .image-text-lock-up-figure, .blog-photo  {
+    .blog-header-figure,
+    .three-images div figure,
+    .image-text-lock-up-figure,
+    .blog-photo {
         height: 140px;
     }
 
-   
+
 }
 
 
 /* landing-page.css */
 
-@media (max-width: 871px){
-    .hello-message-container{
+@media (max-width: 871px) {
+    .hello-message-container {
         flex-direction: column;
     }
 
@@ -221,25 +234,26 @@
         line-height: 4.5rem;
     }
 
-    .hello-message-container .left, .hello-message-container .right {
+    .hello-message-container .left,
+    .hello-message-container .right {
         height: 100%;
         width: 100%;
         margin-right: 0px;
         margin-left: 0px;
-    } 
+    }
 
-    
+
 }
 
-@media (max-width: 700px){
-    .landing-page-section{
+@media (max-width: 700px) {
+    .landing-page-section {
         flex-direction: column-reverse;
-        
+
     }
 }
 
-@media (max-width: 425px){
-    .hello-message-container{
+@media (max-width: 425px) {
+    .hello-message-container {
         flex-direction: column;
     }
 
@@ -249,29 +263,30 @@
         line-height: 4.5rem;
     }
 
-    .hello-message-container .left, .hello-message-container .right {
+    .hello-message-container .left,
+    .hello-message-container .right {
         height: 100%;
         width: 100%;
         margin-right: 0px;
         margin-left: 0px;
     }
 
-    .landing-page-section .right .image{
+    .landing-page-section .right .image {
         min-height: 200px;
         min-width: 200px;
         max-height: 200px;
         max-width: 200px;
-    
+
         background-color: red;
         margin: 24px;
-      }
+    }
 }
 
 
 /* resume.css */
 
 @media (max-width: 760px) {
-    .education-skills-knowledge-containter{
+    .education-skills-knowledge-containter {
         flex-direction: column;
     }
 
@@ -279,15 +294,15 @@
         width: 100%;
     }
 
-    .current-position, .current-learing {
+    .current-position,
+    .current-learing {
         padding: 12px;
         background-color: var(--third-color);
         margin-top: 12px;
     }
 
-    .education-skills-knowledge-containter .divider{
+    .education-skills-knowledge-containter .divider {
         display: block;
     }
 
 }
-
